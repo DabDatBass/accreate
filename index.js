@@ -110,15 +110,21 @@ function request(acc,pass) {
   });
 }
 function create(acc, pass) {
-  bcrypt.genSalt(saltRounds, (err, salt) => {
-    if (!(err)) {
-      bcrypt.hash(pass, salt, (err, hash) => {
-        if (!(err)) {
-          db.set(acc, hash).then(() => {
-            return null;
-          });
-        }
-      });
-    }
-  });
+  try {
+    db.get(acc).then(value => {});
+  } catch (e) {
+    bcrypt.genSalt(saltRounds, (err, salt) => {
+      if (!(err)) {
+        bcrypt.hash(pass, salt, (err, hash) => {
+          if (!(err)) {
+            db.set(acc, hash).then(() => {
+              return null;
+            });
+          }
+        });
+      }
+    });
+  } else {
+    return "ERR";
+  }
 }
