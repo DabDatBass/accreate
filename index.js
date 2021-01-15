@@ -110,9 +110,11 @@ function request(acc,pass) {
   });
 }
 function create(acc, pass) {
+  var err = false;
   try {
     db.get(acc).then(value => {});
   } catch (e) {
+    err = true;
     bcrypt.genSalt(saltRounds, (err, salt) => {
       if (!(err)) {
         bcrypt.hash(pass, salt, (err, hash) => {
@@ -124,7 +126,9 @@ function create(acc, pass) {
         });
       }
     });
-  } else {
-    return "ERR";
+  } finally {
+    if (err == false) {
+      return "ERR";
+    }
   }
 }
