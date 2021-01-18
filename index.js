@@ -4,7 +4,15 @@ const bcrypt = require('bcrypt');
 const saltRounds = 9;
 
 function request(acc,pass) {
-  db.get(acc).then(value => {
+  var passed = true;
+  try {
+    db.get(acc).then(value => {});
+  } catch (e){
+    throw new Error("Account doesn't exist");
+    passed = false;
+    return 'ERR';
+  } finally {
+    if (passed == true) {
     bcrypt.genSalt(saltRounds, (err, salt) => {
       if (!(err)) {
         bcrypt.hash(pass, salt, (err, hash) => {
@@ -107,7 +115,8 @@ function request(acc,pass) {
         });
       }
     });
-  });
+  }
+  }
 }
 function create(acc, pass) {
   var err = false;
