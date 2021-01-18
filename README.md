@@ -1,6 +1,6 @@
 # [Accreate Beta](https://github.com/DabDatBass/accreate)
 ---
-![stars](https://flat.badgen.net/github/stars/DabDatBass/accreate) ![forks](https://flat.badgen.net/github/forks/DabDatBass/accreate) ![issues](https://flat.badgen.net/github/issues/DabDatBass/accreate) [![run on repl.it](https://repl.it/badge/github/DabDatBass/accreate)](https://repl.it/@DabDatBass/accreate) ![version](https://flat.badgen.net/github/release/DabDatBass/accreate)
+![stars](https://flat.badgen.net/github/stars/DabDatBass/accreate) ![forks](https://flat.badgen.net/github/forks/DabDatBass/accreate) ![issues](https://flat.badgen.net/github/issues/DabDatBass/accreate) ![version](https://flat.badgen.net/github/release/DabDatBass/accreate) ![discuss](https://flat.badgen.net/badge/discuss/on%20github/black) ![lang](https://flat.badgen.net/badge/language/node.js/green)
 
 Accreate is an account creator/manager that's really easy to use. To use Accreate, simply fork the repl on [repl.it](https://repl.it/@DabDatBass/accreate) or download the zip in the [GitHub](https://github.com/DabDatBass/accreate), then follow this simple tutorial below.
 
@@ -48,3 +48,5 @@ If that doesn't work, use Node.JS to install the database.
 ---
 ## Conclusion
 I have worked very hard on creating this. Please star this project on GitHub and if there are any errors/something isn't working please create an issue on the GitHub. Thanks and I hope you use it!
+
+[![run on repl.it](https://repl.it/badge/github/DabDatBass/accreate)](https://repl.it/@DabDatBass/accreate)
