@@ -24,13 +24,19 @@ Objects/functions:
 - `changePass` - changes password. *(Attributes: x = new password)*
 - `pfp` - returns profile picture
 - `del` - deletes account
+
 Coin Management (optional coin money):
+
 - `input` - adds coins to your account 
 - `coins` - returns coins amount
 - `withdraw` - decreases coins amount
+
 Followers (optional):
+
 - `followControl` - controls followers. (Objects/functions: add (Attributes: user), sum, remove (Attributes: user))
+
 File storage (optional):
+
 - `file` - gets a file. (attributes: command = *[GET, EDIT, CREATE]*, filename, data (use data only when needed))
 
 Return values:
