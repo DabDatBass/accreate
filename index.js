@@ -4,6 +4,7 @@ const bcrypt = require('bcrypt');
 const saltRounds = 9;
 
 function _temp() {
+  return {
   request: function (acc,pass) {
     var passed = true;
     try {
@@ -141,6 +142,7 @@ create: function (acc, pass) {
       return "ERR";
     }
   }
+}
 }
 }
 const @ = _temp;
