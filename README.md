@@ -5,7 +5,7 @@
 Accreate is an account creator/manager that's really easy to use. To use Accreate, simply fork the repl on [repl.it](https://repl.it/@DabDatBass/accreate) or download the zip in the [GitHub](https://github.com/DabDatBass/accreate), then follow this simple tutorial below.
 
 ## How to use
-##### To create an account, use `create()`.
+##### To create an account, use `_@.create()`.
 Attributes:
 - `acc` - account name
 - `pass` - password
@@ -15,7 +15,7 @@ Return values:
 - `"ERR"` - failed
 - nothing - internal error
 
-##### To edit/manage an account, use `request()`.
+##### To edit/manage an account, use `_@.request()`.
 Attributes:
 - `acc` - account name
 - `pass` - password
