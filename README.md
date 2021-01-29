@@ -8,9 +8,9 @@ Accreate is an account creator/manager that's really easy to use. To use Accreat
 
 ## How to use
 
-Installation is simple. Use `const _@ = require("accreate");` for Node.JS.
+Installation is simple. Use `const acc = require("accreate");` for Node.JS.
 
-##### To create an account, use `_@.create()`.
+##### To create an account, use `acc.create()`.
 Attributes:
 - `acc` - account name
 - `pass` - password
@@ -20,7 +20,7 @@ Return values:
 - `"ERR"` - failed
 - nothing - internal error
 
-##### To edit/manage an account, use `_@.request()`.
+##### To edit/manage an account, use `acc.request()`.
 Attributes:
 - `acc` - account name
 - `pass` - password
