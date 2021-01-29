@@ -2,9 +2,14 @@
 ---
 ![stars](https://flat.badgen.net/github/stars/DabDatBass/accreate) ![forks](https://flat.badgen.net/github/forks/DabDatBass/accreate) ![issues](https://flat.badgen.net/github/issues/DabDatBass/accreate) ![version](https://flat.badgen.net/github/release/DabDatBass/accreate) ![discuss](https://flat.badgen.net/badge/discuss/on%20github/black) ![lastcommit](https://flat.badgen.net/github/last-commit/DabDatBass/accreate) ![lang](https://flat.badgen.net/badge/language/node.js/green)
 
+### 🎉 This is now on [NPM](https://npmjs.org/package/accreate)! 🎉
+
 Accreate is an account creator/manager that's really easy to use. To use Accreate, simply fork the repl on [repl.it](https://repl.it/@DabDatBass/accreate) or download the zip in the [GitHub](https://github.com/DabDatBass/accreate), then follow this simple tutorial below.
 
 ## How to use
+
+Installation is simple. Use `const _@ = require("accreate");` for Node.JS.
+
 ##### To create an account, use `_@.create()`.
 Attributes:
 - `acc` - account name
