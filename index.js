@@ -145,8 +145,7 @@ create: function (acc, pass) {
 }
 }
 }
-const @ = _temp;
-const _@ = _temp;
+
 if (document == "null" || document == null || window == null || window == "null") {
    module.exports(_temp);
 }
