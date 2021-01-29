@@ -119,7 +119,7 @@ function _temp() {
       });
     }
   }
-}
+},
 create: function (acc, pass) {
   var err = false;
   try {
