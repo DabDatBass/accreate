@@ -145,7 +145,4 @@ create: function (acc, pass) {
 }
 }
 }
-
-if (document == "null" || document == null || window == null || window == "null") {
-   module.exports(_temp);
-}
+module.exports(_temp);
